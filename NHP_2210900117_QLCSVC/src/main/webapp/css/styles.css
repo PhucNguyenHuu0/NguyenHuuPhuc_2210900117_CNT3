@@ -1,0 +1,329 @@
+/* Reset và font hiện đại */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2); /* Gradient xanh nhạt */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(90deg, #0288d1, #7b1fa2); /* Gradient xanh đến tím */
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e0f7fa;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #0288d1, #7b1fa2);
+    padding: 60px 0;
+}
+
+.header h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header p {
+    color: #e0f7fa;
+    font-size: 1.2rem;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 15px;
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    color: #0288d1;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.card-text {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.animate-card {
+    animation: fadeInUp 0.5s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Button */
+.btn-custom {
+    background: linear-gradient(90deg, #0288d1, #7b1fa2);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-custom:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, #0288d1, #7b1fa2);
+    padding: 20px 0;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.8rem;
+    }
+    .header p {
+        font-size: 1rem;
+    }
+    .navbar-brand {
+        font-size: 1.4rem;
+    }
+    .card-title {
+        font-size: 1.1rem;
+    }
+}
+/* Reset và font hiện đại */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(90deg, #0288d1, #7b1fa2);
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e0f7fa;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #0288d1, #7b1fa2);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.header h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.header p {
+    color: #e0f7fa;
+    font-size: 1.1rem;
+}
+
+/* Container */
+.container {
+    flex: 1;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+    background: linear-gradient(90deg, #0288d1, #7b1fa2);
+    color: #fff;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s;
+}
+
+/* Links */
+a {
+    color: #0288d1;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #7b1fa2;
+    text-decoration: underline;
+}
+
+/* Form */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+    font-weight: 500;
+}
+
+input[type="text"], 
+input[type="number"], 
+input[type="datetime-local"], 
+select, 
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type="submit"] {
+    background: linear-gradient(90deg, #0288d1, #7b1fa2);
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 600;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Button */
+.btn-custom {
+    background: linear-gradient(90deg, #0288d1, #7b1fa2);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-custom:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, #0288d1, #7b1fa2);
+    padding: 20px 0;
+    color: #fff;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* Animation */
+.animate {
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header h1 { font-size: 1.5rem; }
+    .header p { font-size: 0.9rem; }
+    .navbar-brand { font-size: 1.4rem; }
+    th, td { padding: 10px; }
+    form { padding: 15px; }
+}body {
+    font-family: 'Poppins', Arial, sans-serif;
+}
